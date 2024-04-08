@@ -35,3 +35,6 @@ variable "aws_availabilityzones" {
   type = list(string)
   default = [ "ap-south-1a" ,"ap-south-1b"]
 }
+
+variable aws_access_key_id {}
+variable aws_secret_access_key {}
